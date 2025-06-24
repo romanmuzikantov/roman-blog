@@ -11,7 +11,7 @@ I’ll start by saying that it’s called ‘The Not so Comprehensive Guide’ b
 
 I’ve decided to write it in two parts after having laid out all the subjects I wanted to write about, I noticed there were quite a few, thus it might have been a bit too long to read (and to write for me).
 
-# My experience
+## My experience
 
 Before diving into the details of this article I think that now is a good time to talk a bit more about what my experience as a software engineer has been so far, this might give a bit more context on how I ended up using low-code/no-code tools.
 
@@ -29,7 +29,7 @@ Still, my curiosity took over and I gave it a chance, I made some research and I
 
 Two years later, I don't regret taking that step one bit for two main reasons, I discovered incredible tools and developed a more open-minded perspective about the right approaches to building applications.
 
-## Closed Source/Open Source
+### Closed Source/Open Source
 
 One thing that often comes up as an argument against low-code tools is that they mostly are black boxes, we do not know what’s under the hood and have no control over it, meaning that if any issue arises with the tool itself you are entirely dependent on the provider of the said tool. And I mostly agree with that, I do prefer using open source tools, I’m more comfortable understanding what’s under the hood before using abstractions.
 
@@ -37,7 +37,7 @@ Now, I have two things to say about this, first of all there are really good ope
 
 Second, for some solutions we have to differentiate the tool itself from the output of that tool, what I mean by that is that for some tools you might not hold the control over the tool that you use to build your application but you might still hold the control over the code that you get as an output, I’ll talk more about this in the “Code Export” section.
 
-## Data ownership & security
+### Data ownership & security
 
 Many people understandably prefer keeping control over where their data is stored, whether it is in the cloud service of their choosing or on-premise. I think that most readers will agree that maintaining control over your business’s (or your own) data is crucial.
 
@@ -47,7 +47,7 @@ Tools like Xano take security very seriously, and I particularly appreciate thei
 
 I believe this topic deserves more attention, and I plan to write a detailed post about backend tools in the future.
 
-## Code Export
+### Code Export
 
 Back to the subject of solution ownership, some tools offer code export capabilities for your applications. This serves as an excellent safeguard against a common concern: "What happens if the platform goes out of business?". Most tools I know tend to try to have a comforting answer to this question, but as a software engineer I feel like there is no greater solution than being able to export quality code out of the tool and being able to keep working on your application without having to rely entirely on the low-code/no-code tool.
 
@@ -57,7 +57,7 @@ In this section, I want to highlight WeWeb, which is actually the only low-code 
 
 I’ve got to admit, WeWeb has a special place in my heart. There’s a lot I appreciate about how it works, and I’ll probably do a separate post at some point to dive deeper into what makes it such a solid tool.
 
-## Extensibility
+### Extensibility
 
 When you’re choosing the technologies to use to build your project it’s essential to know and understand the limitations of said technologies, by choosing a tech blindly you take the risk to find yourself in a quite difficult position later on when you realise that some of the things you need could be too hard to make or in the worst case, impossible to make. At which point you’ll have to make a difficult decision: cutting off some of the features ? keeping the features but delaying the project ? remake everything ?… 
 
@@ -67,7 +67,7 @@ Traditional development has the advantage to be really flexible, of course you s
 
 To be honest, none of the low-code/no-code tools I know is restricted to the provided components, they all provide some way to go out of the paved road, but my advice remains: make your own researches based on your requirements at the start of the project before making any decision.
 
-## Optimisation
+### Optimisation
 
 Optimisation can come in many ways and in the scope of this post it’s mainly dependent on two things, the technologies you use and the way you use them. The first requires from you to choose the right technologies for your needs, some might be better for handling server/client interaction while some might provide better support for SEO for example. Choosing the right tech can be vital to the success of your project.
 
@@ -79,7 +79,7 @@ Take data loading, for example. No-code tools often make it super easy to hook u
 
 Overall, I really believe that giving non-developers access to these tools is a game changer. It opens the door to deeper collaboration and faster iteration. But when it comes to larger or more complex projects, having experienced developers involved is still important to avoid common pitfalls, whether that’s around performance, scalability, or even security.
 
-## Branching
+### Branching
 
 I don’t think it would be too controversial to say that branches are a must have for most projects, whether you work with a team or alone. Now in traditional development branching is usually provided by Git or any other SCM, so no worries over there. When it comes to low-code/no-code you mostly have to rely on the platform to give you access to that feature, unfortunately I feel like that this is something that is missing a lot currently, very few tools provide it: Supabase and Xano, there might be others but those are the ones I know.
 
@@ -87,6 +87,6 @@ Without a proper branching solution you can fall into two types of issues, if yo
 
 You could implement something like feature flags, which could help a bit with the last issue, but that won’t entirely replace the benefits of branching.
 
-# Conclusion
+## Conclusion
 
 That’s it for the first part, there is still quite a few topics I’d like to write about that will come up in the second part but I hope that this already gives a good idea of what, I feel like, are some crucial points to consider when choosing a technology for a project in the low-code/no-code ecosystem.
