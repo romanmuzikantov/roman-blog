@@ -5,8 +5,6 @@ date: "06/24/2025"
 draft: false
 ---
 
-# The Right Tool for The Job: The Not so Comprehensive Guide (Part 1)
-
 Not so long ago I wrote a LinkedIn post to celebrate a certification I obtained as an Outsystems Tech Lead, in this post I wrote about my views on using low-code/no-code platforms to build an application versus the ‘traditional’ way of coding an application. I’d like to write a bit more about this subject now that I’m not limited to a defined amount of characters.
 
 I’ll start by saying that it’s called ‘The Not so Comprehensive Guide’ because there isn’t one right tool that fits all the needs and requirements of all the projects and teams out there. But there are, I think, some things to keep in mind when picking a tool from the ocean of platforms available, and that’s what I’ll be writing about. Those are general topics that are mostly focused on my experience using low-code/no-code platforms while having a traditional development background.
